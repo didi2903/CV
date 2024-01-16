@@ -144,6 +144,30 @@ img:hover {
         flex-direction: column;
     }
     img {
-        width: 50%;
+        width: 80%;
+    }
+    .header {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .main {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .maingalerija {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .glry1 {
+        margin-left: 0;
+    }
+    .github {
+        width: 80%;
+        height: 80%;
     }
 }
