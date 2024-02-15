@@ -84,11 +84,22 @@ h1 {
 p {
     font-size: 25px;
 }
-img {
+.slika {
     width: 80%;
     height: 80%;
     border-radius: 12px;
     border: solid black 3px;
+}
+.container {
+    display: flex;
+    align-items: baseline;
+}
+.ikona {
+    width: 8%;
+    height: 8%;
+}
+.ikonaTekst {
+    margin-left: 8px;
 }
 .pdf {
     border: none;
@@ -107,10 +118,10 @@ img {
     margin-left: 40px;
     text-align: center;
 }
-img { 
+.slika { 
     transition: all .2s ease-in-out; 
 }    
-img:hover { 
+.slika:hover { 
     transform: scale(1.1); 
 }
 .github {
@@ -142,9 +153,6 @@ img:hover {
     }
     .glry1 {
         flex-direction: column;
-    }
-    img {
-        width: 80%;
     }
     .header {
         margin-left: 0px;
