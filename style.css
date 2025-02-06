@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:wght@300&family=Orbitron&family=Overpass:wght@300&family=Public+Sans:wght@100&family=Roboto:wght@100&family=Varela+Round&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+    box-sizing: border-box;
+    font-family: overpass;
+    }
+.header {
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+li {
+    padding: 20px;
+}
+a {
+    text-decoration: none;
+    color:#0064b4;
+    font-size: 18pt;
+}
+body {
+    background-color: black;
+}
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+}
+.left {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    width: 500px;
+}
+.right {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-left: 20px;
+}
+p {
+    font-size: 18pt;
+    padding: 5px 0px 5px 0px;
+}
+i {
+    padding-right: 20px;
+    color: #0064b4;
+}
+progress[value] {
+    width: 250px;
+    height: 20px;
+    -webkit-appearance: none;
+   appearance: none;
+   border-radius: 8px;
+   border: black solid 1px;
+}
+.git {
+    color: #0064b4;
+  }
+.maingalerija {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+h1 {
+    padding: 20px;
+}
+p {
+    font-size: 25px;
+}
+.slika {
+    width: 80%;
+    height: 80%;
+    border-radius: 12px;
+    border: solid black 3px;
+}
+.container {
+    display: flex;
+    align-items: baseline;
+}
+.ikona {
+    width: 8%;
+    height: 8%;
+}
+.ikonaTekst {
+    margin-left: 8px;
+}
+.pdf {
+    border: none;
+    border-radius: none;
+    width: 70px;
+    height: 70px;
+}
+.glry {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.glry1 {
+    display: flex;
+    justify-self: start;
+    margin-left: 40px;
+    text-align: center;
+}
+.slika { 
+    transition: all .2s ease-in-out;
+}    
+.slika:hover { 
+    transform: scale(1.1);
+}
+.github {
+    width: 350px;
+    height: 200px;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+    ul {
+        justify-content: space-evenly;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+    }
+    .right {
+        margin-left: 0px;
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+    .glry {
+        flex-direction: column;
+    }
+    .glry1 {
+        flex-direction: column;
+    }
+    .header {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .main {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .maingalerija {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .glry1 {
+        margin-left: 0;
+    }
+    .github {
+        width: 80%;
+        height: 80%;
+    }
+}
+.langugeIcon {
+    width: 25px;
+    height: 25px;
+    margin-right: 7px;
+}
+.languge {
+    display: flex;
+}
